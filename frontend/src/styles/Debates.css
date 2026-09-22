@@ -1,0 +1,140 @@
+.debates-pagina {
+  min-height: 100vh;
+  background: #0a0e17;
+}
+
+.debates-contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.debates-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.debates-header h1 {
+  font-family: 'Bebas Neue', 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+
+.debates-header p {
+  color: #7a8ba8;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.debates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+}
+
+.debate-card {
+  background: rgba(19, 26, 42, 0.7);
+  border: 1px solid rgba(122, 139, 168, 0.1);
+  border-radius: 14px;
+  padding: 24px;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.debate-card:hover {
+  border-color: rgba(13, 120, 245, 0.3);
+  transform: translateY(-2px);
+}
+
+.debate-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.debate-equipo-badge {
+  padding: 5px 12px;
+  border-radius: 6px;
+  background: rgba(13, 120, 245, 0.12);
+  color: #4da3ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.debate-mensajes {
+  color: #7a8ba8;
+  font-size: 12px;
+}
+
+.debate-titulo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.debate-descripcion {
+  color: #a0aec0;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.debate-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(122, 139, 168, 0.1);
+  padding-top: 16px;
+}
+
+.debate-estadio {
+  color: #7a8ba8;
+  font-size: 12px;
+}
+
+.btn-entrar-chat {
+  padding: 10px 20px;
+  border: 1px solid rgba(13, 120, 245, 0.3);
+  border-radius: 8px;
+  background: rgba(13, 120, 245, 0.1);
+  color: #4da3ff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-entrar-chat:hover {
+  background: rgba(13, 120, 245, 0.2);
+  border-color: rgba(13, 120, 245, 0.5);
+}
+
+.debate-card-acciones {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-eliminar-foro {
+  padding: 10px 16px;
+  border: 1px solid rgba(229, 72, 77, 0.35);
+  border-radius: 8px;
+  background: rgba(229, 72, 77, 0.1);
+  color: #e5484d;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-eliminar-foro:hover {
+  background: rgba(229, 72, 77, 0.2);
+  border-color: rgba(229, 72, 77, 0.5);
+}

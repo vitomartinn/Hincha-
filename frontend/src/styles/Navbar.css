@@ -1,0 +1,122 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 68px;
+  background: rgba(13, 21, 37, 0.95);
+  border-bottom: 1px solid rgba(29, 185, 84, 0.15);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-izquierda {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand-icono {
+  font-size: 28px;
+}
+
+.brand-texto {
+  font-family: 'Bebas Neue', 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.brand-texto .verde,
+.navbar-brand .verde {
+  color: #1db954;
+}
+
+.navbar-centro {
+  display: flex;
+  gap: 6px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #7a8ba8;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background: rgba(29, 185, 84, 0.1);
+}
+
+.nav-link.activo {
+  color: #1db954;
+  background: rgba(29, 185, 84, 0.12);
+}
+
+.nav-icono {
+  font-size: 16px;
+}
+
+.navbar-derecha {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.usuario-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar-circulo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1db954, #169c46);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.usuario-nombre {
+  color: #c0c8d8;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn-logout {
+  padding: 8px 16px;
+  border: 1px solid rgba(220, 53, 69, 0.3);
+  border-radius: 8px;
+  background: transparent;
+  color: #ff6b7a;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-logout:hover {
+  background: rgba(220, 53, 69, 0.15);
+  border-color: rgba(220, 53, 69, 0.5);
+}
